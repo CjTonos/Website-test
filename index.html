@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugos Tropicales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jugos Tropicales</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>Sabor Tropical en Cada Gota</h2>
+                <p>Descubre la frescura y la vitalidad de nuestros jugos naturales.</p>
+                <a href="#productos" class="cta-button">Ver Productos</a>
+            </div>
+        </section>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1525385133512-2f3bdd039054?fm=jpg&q=60&w=3000" alt="Jugo de Mango">
+                    <h3>Mango Tango</h3>
+                    <p>Una explosión de sabor a mango dulce y exótico.</p>
+                    <span>$4.50</span>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?fm=jpg&q=60&w=3000" alt="Jugo de Piña">
+                    <h3>Piña Paraíso</h3>
+                    <p>Refrescante y jugoso, directamente del paraíso.</p>
+                    <span>$4.50</span>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1606673993554-a5f993a16e0d?fm=jpg&q=60&w=3000" alt="Jugo de Maracuyá">
+                    <h3>Maracuyá Mágico</h3>
+                    <p>Un sabor agridulce que despertará tus sentidos.</p>
+                    <span>$4.50</span>
+                </div>
+            </div>
+        </section>
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>En Jugos Tropicales, nuestra misión es llevarte los sabores más puros y exóticos del trópico. Seleccionamos a mano las frutas más frescas y maduras para crear jugos que no solo son deliciosos, sino también increíblemente nutritivos. ¡Únete a nosotros en este viaje de sabor y frescura!</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o simplemente quieres decir hola? ¡Nos encantaría saber de ti!</p>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jugos Tropicales</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
